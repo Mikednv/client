@@ -3,7 +3,7 @@ import axios from 'axios';
 
      class AutenticazioneConn {
     register = (obj) => {
-    return axios.post("http://localhost:3006/" + "utenti/registrazione", obj);
+    return axios.post("https://progettomdmc.herokuapp.com/" + "utenti/registrazione", obj);
     }
 
     login = (obj) => {
