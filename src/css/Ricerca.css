@@ -1,0 +1,111 @@
+.RisultatiCard{
+    width:65%;
+    -webkit-box-shadow: 0px 0px 38px 3px rgba(0,0,0,0.27);
+  -moz-box-shadow: 0px 0px 38px 3px rgba(0,0,0,0.27);
+  box-shadow: 0px 0px 38px 3px rgba(0,0,0,0.27);
+  min-width:300px !important;
+  display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px !important;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.1) !important;
+
+}
+
+
+
+.containerhome{
+    padding-top:50px
+}
+
+.centerRow{
+    text-align: center !important;
+}
+.risultatiRow{
+    width:100%;
+    display:flex;
+}
+
+.form-check-label {
+padding-right:15px !important;
+margin-left:-7px !important
+}
+
+.fixCity{
+width:100% !important;
+flex-wrap:wrap !important;
+margin-bottom:-20px !important
+}
+
+
+
+.risultatiCol{
+    width:100%;
+}
+
+.Descrizione{
+    font-size:20px;
+}
+
+.ricercadiv{
+    padding:35px;
+}
+
+.DateRangePickerInput {
+    background: #f0f0f0 !important;
+  }
+
+  .DateInput_input {
+      background-color: #f0f0f0 !important;
+  }
+.imgHome{
+    padding:10px;
+    width:100vh;
+    display:flex;
+    width:100% !important;
+    float:left;
+    height:auto !important;
+    object-fit: cover !important;
+    position: relative;
+    min-width:auto !important;
+    min-height: auto !important;
+}
+
+
+.card-columns{
+    column-count:1 !important;
+    padding:30px !important;
+}
+
+.CardHomeCSS{
+    margin-bottom:5%!important;
+    height: 75% !important;
+    width: 75% !important;
+    display: flex !important;
+}
+
+.card-img-top{
+    height:350px;
+    min-height: 20vh !important;
+    object-fit: cover !important;
+}
+
+.P_Prezzo{
+    font-size: 26px;
+    padding:0;
+    font-weight: bold;
+}
+
+.P_Descrizione{
+    font-size: 20px !important;
+}
+
+.P_Nome{
+    font-size: 26px !important;
+    font-weight: bold;
+}
+
+.fixPadding{
+    padding-top:-60px !important;
+}
