@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const res = await fetch('https://https://objective-edison-48fce5.netlify.app/')
+const res = await fetch('https://progettomdmc.herokuapp.com/')
 
 
 ReactDOM.render(
