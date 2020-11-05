@@ -20,7 +20,7 @@ import axios from 'axios';
             delete _obj.focusedInput
             _obj.check_in=_obj.check_in.format("YYYY-MM-DD");
             _obj.check_out=_obj.check_out.format("YYYY-MM-DD");
-            return axios.post("http://progettomdmc.herokuapp.com/" + 'strutture/searchCamere', _obj);
+            return axios.post("https://progettomdmc.herokuapp.com/" + 'strutture/searchCamere', _obj);
         }
     
 }
