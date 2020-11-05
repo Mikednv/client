@@ -7,7 +7,7 @@ import { Nav } from 'react-bootstrap';
 import { render } from '@testing-library/react';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
-import {HashRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Login from './componenti/login.js';
 import Registrazione from './componenti/register.js';
 import Card from 'react-bootstrap/Card';
