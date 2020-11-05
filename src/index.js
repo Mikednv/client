@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const res = await fetch('https://progettomdmc.herokuapp.com/')
+const res = fetch('https://progettomdmc.herokuapp.com/')
 
 
 ReactDOM.render(
