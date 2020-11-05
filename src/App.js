@@ -137,7 +137,7 @@ export default class NavigationBar extends Component {
 
 <Route exact path="/home" component={home}/>
 <Route exact path="/" component={home}/>
-<Route exact path="https://5fa38b40bee369000726da29--objective-edison-48fce5.netlify.app/login" component={Login}/>
+<Route exact path="/login" component={Login}/>
 <Route exact path="/register" component= {Registrazione}/>
 <Route exact path="/visualizzaStruttura" component={visualizzaStruttura}/>
 
