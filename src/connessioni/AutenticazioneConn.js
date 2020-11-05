@@ -7,7 +7,7 @@ import axios from 'axios';
     }
 
     login = (obj) => {
-      return axios.post("http://localhost:3006/" + "utenti/login", obj);
+      return axios.post("https://progettomdmc.herokuapp.com/" + "utenti/login", obj);
       }
 
     logout(){
