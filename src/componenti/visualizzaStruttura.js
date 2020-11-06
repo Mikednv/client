@@ -78,7 +78,7 @@ state={
       className="d-block w-100"
       width="400"
       height="500"
-      src={'http://localhost:3006/immagini/' + this.state.camera.foto}
+      src={'https://progettomdmc.herokuapp.com/immagini/' + this.state.camera.foto}
       rounded
     />
     
@@ -125,7 +125,7 @@ state={
       className="d-block w-100"
       width="400"
       height="500"
-      src={'http://localhost:3006/immagini/' + path.path}
+      src={'https://progettomdmc.herokuapp.com/' + path.path}
             rounded
     />
             
