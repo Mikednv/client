@@ -284,7 +284,7 @@ this.state.strutture.map((struttura,index)=>
                              
                              
   <Card className="CardHomeCSS"> 
-    <Card.Img variant="top" src={"http://localhost:3006/immagini/" + struttura.path} />
+    <Card.Img variant="top" src={"https://progettomdmc.herokuapp.com/immagini/" + struttura.path} />
     <Card.Body>
       <Card.Title><p className="P_Nome">{struttura.nome}</p> </Card.Title>
       <Card.Text><p className="P_Descrizione">
@@ -343,7 +343,7 @@ this.state.strutture.map((struttura,index)=>
                                });
                              }}>
          <Card className="CardHomeCSS"> 
-    <Card.Img variant="top" src={"http://localhost:3006/immagini/" + camera.foto} />
+    <Card.Img variant="top" src={"https://progettomdmc.herokuapp.com/immagini/" + camera.foto} />
     <Card.Body>
       <Card.Title><p className="P_Nome">{camera.nome_s + ' - ' + camera.nome}</p> </Card.Title>
       <Card.Text><p className="P_Descrizione">
