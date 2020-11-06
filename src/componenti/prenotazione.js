@@ -211,7 +211,7 @@ render(){
         <Button  href="/home" variant="dark" className="btnRedirect" >
                          Torna alla home
                     </Button>
-                    <Button  href="/" variant="dark" className="btnRedirect">
+                    <Button  href="/areaPersonaleUtente/gestionePrenotazioniUtente" variant="dark" className="btnRedirect">
                          Visualizza prenotazioni
                     </Button>
                     </div>

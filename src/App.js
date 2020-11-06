@@ -92,7 +92,7 @@ export default class NavigationBar extends Component {
      
           
           {currentUser ? (
-          <Nav.Link bsPrefix="nlink" href="http://localhost:3000" onClick={this.logout}>Logout</Nav.Link>
+          <Nav.Link bsPrefix="nlink" href="/home" onClick={this.logout}>Logout</Nav.Link>
           ) : (
             <div className="notLoggedIn">
           <Nav.Link bsPrefix="nlink" href="/login">Login</Nav.Link>
