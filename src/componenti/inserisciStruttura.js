@@ -41,25 +41,25 @@ export default class inserisciStruttura extends Component{
 
   handleCheckPiscina=(event)=>{
     if(event.target.checked){
-      this.setState({aria_condizionata:1})
+      this.setState({piscina:1})
   }else{
-     this.setState({aria_condizionata:0})
+     this.setState({piscina:0})
   }
   }
   
   handleCheckWifi=(event)=>{
     if(event.target.checked){
-      this.setState({riscaldamento:1})
+      this.setState({wifi:1})
   }else{
-     this.setState({riscaldamento:0})
+     this.setState({wifi:0})
   }
   }
   
   handleCheckParcheggio=(event)=>{
     if(event.target.checked){
-      this.setState({servizio:1})
+      this.setState({parcheggio:1})
   }else{
-     this.setState({servizio:0})
+     this.setState({parcheggio:0})
   }
   }
 
