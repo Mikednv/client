@@ -125,7 +125,7 @@ state={
       className="d-block w-100"
       width="400"
       height="500"
-      src={'https://progettomdmc.herokuapp.com/' + path.path}
+      src={'https://progettomdmc.herokuapp.com/immagini/' + path.path}
             rounded
     />
             
