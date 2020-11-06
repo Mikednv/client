@@ -29,13 +29,13 @@ export default class inserisciStruttura extends Component{
        parcheggio:0,
        piscina:0,
        disabled:true,
-       tipo:"true"
+       tipo:1
   };
 
 
   handlebb=async (event)=>{
     await this.setState({tipo:event.target.value})
-    this.state.tipo == "true" ? this.setState({disabled:true}) : this.setState({disabled:false})
+    this.state.tipo == 1 ? this.setState({disabled:true}) : this.setState({disabled:false})
     console.log(this.state.tipo)
   }
 
@@ -125,7 +125,7 @@ registraStruttura = async (obj) => { //funzione di submitting
                 descrizione:"",
                 cap:"",
                 indirizzo:"",
-                tipologia:"true",
+                tipologia:1,
                 prezzo:null,
                 numero_ospiti:null,
                 wifi:false,
@@ -193,8 +193,8 @@ registraStruttura = async (obj) => { //funzione di submitting
                                 : null
                             }
                           >
-                            <option value="true">Bed and Breakfast</option>
-                            <option value="false">Casa Vacanza</option>
+                            <option value={1}>Bed and Breakfast</option>
+                            <option value={0}>Casa Vacanza</option>
 
                             
                            
